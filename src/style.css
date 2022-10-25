@@ -103,3 +103,41 @@ input {
 .score-input {
   background-color: #F96BE0;
 }
+
+@media all and (max-width: 720px) {
+  body {
+  background-color: #1A2B5B;
+  background-image: url(./Assets/ldb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+  display: flex;
+  gap: 0;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  height: auto;
+  border-right: 4px solid #7CF9FA;
+  border-left: 4px solid #F96BE0;
+  border-top: 4px solid #F96BE0;
+  border-bottom: 4px solid #7CF9FA;
+}
+
+.add-score {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 40px;
+}
+}
