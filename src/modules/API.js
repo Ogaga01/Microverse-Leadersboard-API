@@ -1,4 +1,4 @@
-import { renderScore } from './renderScores';
+import renderScore from './renderScores.js';
 
 const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/6dET1N8d3ca8bCIiVoCb/scores/';
 

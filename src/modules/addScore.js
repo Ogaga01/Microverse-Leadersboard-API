@@ -1,4 +1,4 @@
-import { fetchScores, postScores } from './API';
+import { fetchScores, postScores } from './API.js';
 
 const nameInput = document.querySelector('.name-input');
 const scoreInput = document.querySelector('.score-input');
@@ -14,4 +14,4 @@ const scoreAdd = () => {
   });
   fetchScores();
 };
-export { scoreAdd };
+export default { scoreAdd };

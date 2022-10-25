@@ -13,4 +13,4 @@ const renderScore = (scores) => {
     listContainer.insertAdjacentHTML('afterbegin', html);
   });
 };
-export { renderScore };
+export default { renderScore };
