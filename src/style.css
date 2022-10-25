@@ -23,6 +23,7 @@ main {
   border-left: 4px solid #f96be0;
   border-top: 4px solid #f96be0;
   border-bottom: 4px solid #7cf9fa;
+  overflow-y: scroll;
 }
 
 .head {

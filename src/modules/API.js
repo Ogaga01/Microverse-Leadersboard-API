@@ -4,15 +4,26 @@ const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/
 
 const fetchScores = async () => {
     const response = await fetch(baseUrl)
-    console.log(response)
     const data = await response.json()
-    console.log(data)
+    let {result} = data
 
-    renderScore(data)
+        result = result.sort((b, a) => {
+        let ret;
+        if (parseInt(a.score, 10) > parseInt(b.score, 10)) {
+            ret = -1;
+        } else if (parseInt(a.score, 10) < parseInt(b.score, 10)) {
+            ret = 1;
+        } else {
+            ret = 0;
+        }
+        return ret;
+    });
+
+    renderScore(result)
 }
 
 const postScores = (_name, score) => {
-    fetch(url, {
+    fetch(baseUrl, {
     method: 'POST',
     body: JSON.stringify({
       user: _name,

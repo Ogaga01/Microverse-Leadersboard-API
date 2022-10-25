@@ -9,7 +9,9 @@ const scoreAdd = () => {
       name = nameInput.value;
       score = scoreInput.value;
       postScores(name, score);
-      fetchScores();
+      nameInput.value = ''
+      scoreInput.value = ''
     });
+    fetchScores();
 }
 export {scoreAdd}
