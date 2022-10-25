@@ -72,3 +72,34 @@ ul {
 .score {
   color: #F96BE0;
 }
+
+button {
+  box-shadow: 3px 3px #F96BE0;
+}
+
+.add-score {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 40px;
+}
+
+.heading {
+  color: #F96BE0;
+}
+
+.span {
+  color: #7CF9FA;
+}
+
+input {
+  height: 25px;
+}
+
+.name-input {
+  background-color: #7CF9FA;
+}
+
+.score-input {
+  background-color: #F96BE0;
+}
