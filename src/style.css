@@ -51,3 +51,24 @@ main {
   width: 80px;
   height: 25px;
 }
+
+ul {
+  list-style-type: none;
+  width: 80%;
+  margin-left: 5%;
+}
+
+.score-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score-item {
+  color: #7CF9FA;
+}
+
+.score {
+  color: #F96BE0;
+}
