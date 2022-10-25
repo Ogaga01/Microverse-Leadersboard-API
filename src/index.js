@@ -2,12 +2,12 @@ import './style.css';
 import { fetchScores } from './modules/API';
 import { scoreAdd } from './modules/addScore';
 
-const refreshBtn = document.querySelector('.refresh-btn')
+const refreshBtn = document.querySelector('.refresh-btn');
 
-fetchScores()
+fetchScores();
 
-scoreAdd()
+scoreAdd();
 
 refreshBtn.addEventListener('click', () => {
-    fetchScores()
-})
+  fetchScores();
+});
