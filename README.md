@@ -12,7 +12,7 @@ The leaderboard website displays scores submitted by different players. It also 
 
 ## Live Demo 
 
-[Live Link]([https://ogaga01.github.io/Leaderboard-API](https://ogaga01.github.io/Microverse-Leadersboard-API/)/dist)
+[Live Link](https://ogaga01.github.io/Microverse-Leadersboard-API/dist)
 
 ## Getting Started
 
