@@ -14,4 +14,4 @@ const scoreAdd = () => {
   });
   fetchScores();
 };
-export default { scoreAdd };
+export default scoreAdd;
